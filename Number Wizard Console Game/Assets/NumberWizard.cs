@@ -17,7 +17,7 @@ public class NumberWizard : MonoBehaviour {
         Debug.Log("Lowest number is: "+min);
         Debug.Log("Tell me if your number higher than: "+ guess);
         Debug.Log("Push up: Higher, Push down: Lower, Push Enter: Correct ");
-        
+        max += 1;
 
     }
 
