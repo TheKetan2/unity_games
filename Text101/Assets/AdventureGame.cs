@@ -9,7 +9,7 @@ public class AdventureGame : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        textComponent.text = "This is story text component";
+        textComponent.text = ("This is story text component");
 		
 	}
 	
