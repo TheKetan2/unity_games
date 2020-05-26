@@ -28,6 +28,9 @@ public class NumberWizard : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+
+
+
         if (Input.GetKeyDown(KeyCode.UpArrow)) {
             Debug.Log("UP Arrow was clicked.");
             min = guess;
