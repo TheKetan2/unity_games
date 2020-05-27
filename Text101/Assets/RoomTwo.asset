@@ -9,20 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2d3f1628fd060f438ab42b74e004171, type: 3}
-  m_Name: StartingState
+  m_Name: RoomTwo
   m_EditorClassIdentifier: 
-  storyText: 'Fester. Everywhere. Armed with mostly gas-powered flingers.
-
-    At least 10 of them guarding the doors of the tunnel.
-
-    could try punching my way through, or sneaking the long way to the emergency exit.
-
-    What should I do?
-
-    1. Take them head on, rush to the 10 guards.
-
-    2. Sneak my way to the emergency Exit.'
+  storyText: Room Two
   nextStates:
   - {fileID: 11400000, guid: ba5ec3e79cd858440b7903be9388aa35, type: 2}
-  - {fileID: 11400000, guid: 1b441d16c85a4ba42808a91d3a2c80e1, type: 2}
   - {fileID: 11400000}
+  - {fileID: 11400000, guid: b88c59552fa56254c94ad10c3fe53570, type: 2}
